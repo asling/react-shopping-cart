@@ -1,0 +1,40 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "react的购物车功能实现",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asling/react-shopping-cart.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asling/react-shopping-cart/issues"
+  },
+  "homepage": "https://github.com/asling/react-shopping-cart#readme",
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "react-scripts": "^1.0.1",
+    "react-test-renderer": "^15.6.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  }
+}
