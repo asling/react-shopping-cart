@@ -31,6 +31,7 @@ const byId = (state={}, action) => {
 					[productId]: products(state[productId],action)
 				}
 			}
+			return state;
 	}
 }
 

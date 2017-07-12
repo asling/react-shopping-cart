@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { addToCart } from '../actions';
 import { getVisibleProducts } from '../reducers/products';
 import ProductItem from '../components/ProductItem';
-import ProductList from '../components/ProductList';
+import ProductList from '../components/ProductsList';
 
 const ProductsContainer = ({products, addToCart}) => (
 	<ProductList title="Products" >
@@ -18,7 +18,7 @@ const ProductsContainer = ({products, addToCart}) => (
 );
 
 ProductsContainer.propTypes = {
-	products: PropTypes.arrayOf(PropTypes.share({
+	products: PropTypes.arrayOf(PropTypes.shape({
 		id: PropTypes.number.isRequired,
 		title: PropTypes.string.isRequired,
 		price: PropTypes.number.isRequired

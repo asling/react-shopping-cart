@@ -20,7 +20,7 @@ const Cart = ({products, total, onCheckoutClicked }) => {
 			<h3>Your cart</h3>
 			<div>{nodes}</div>
 			<p>Total: &#36; {total}</p>
-			<button onClicked={onCheckoutClicked}
+			<button onClick={onCheckoutClicked}
 				disabled={hasProducts ? '' : 'disabled'} >
 				Checkout </button>
 		</div>

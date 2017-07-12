@@ -1,7 +1,8 @@
 import {
 	ADD_TO_CART,
 	CHECKOUT_REQUEST,
-	CHECKOUT_FAILURE
+	CHECKOUT_FAILURE,
+	CHECKOUT_SUCCESS
 } from '../constants/ActionTypes';
 
 const initailState = {
